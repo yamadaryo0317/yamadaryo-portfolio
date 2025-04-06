@@ -1,0 +1,181 @@
+/* 自己紹介セクション */
+.about-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* 自己紹介のレイアウト */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+.about-photo img {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.about-text h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+    color: #555;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text li {
+    margin-bottom: 5px;
+}
+
+/* ボタンデザイン */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* スマホ対応 */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.skill-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+  }
+  
+  .skill-section h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 60px; /* 縦横の間隔 */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill-item {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-item i {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .skill-item span {
+    font-size: 0.95rem;
+    font-weight: 500;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.05);
+  }
+
+  p {
+    font-size: 1.1rem; /* 通常の1remより少し大きめ */
+    line-height: 1.8;  /* 行間も広めにして読みやすく */
+    color: #333;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  @media screen and (max-width: 600px) {
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  
+  .skill-item i.fa-figma { color: #a259ff; }
+.skill-item i.fa-pen-nib { color: #ff9a00; }
+.skill-item i.fa-image { color: #00bcd4; }
+.skill-item i.fa-html5 { color: #e44d26; }
+.skill-item i.fa-css3-alt { color: #1572b6; }
+.skill-item i.fa-js { color: #f7df1e; }
+.skill-item i.fa-php { color: #8892be; }
+  
+
+.footer {
+    background-color: #222; /* ダークグレー */
+    color: #fff; /* 白文字 */
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+        color: #f9f9f9
+  }
+  
+  .footer a {
+    color: #4db8ff; /* 明るい青 */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: #fff; /* ホバー時に白く */
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f9f9f9
+  }
+  .footer p {
+    color: #f9f9f9
+  }
